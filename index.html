@@ -35,13 +35,13 @@
    document.getElementById("hotdogs_qty").innerHTML= hotdogs;
    document.getElementById("fries_qty").innerHTML= fries;
    document.getElementById("sodas_qty").innerHTML= sodas;
-   document.getElementById("hotdogs_price").innerHTML= (hotdogs * 3.25).toFixed(2);
-   document.getElementById("fries_price").innerHTML= (fries * 2).toFixed(2);
-   document.getElementById("sodas_price").innerHTML= (sodas * 1.5).toFixed(2);
-   document.getElementById("subtotal").innerHTML= subtotalbefore.toFixed(2);
-   document.getElementById("discount").innerHTML=discount.toFixed(2);
-   document.getElementById("taxes").innerHTML= taxes.toFixed(2);
-   document.getElementById("total").innerHTML= total.toFixed(2);
+   document.getElementById("hotdogs_price").innerHTML= (Math.round((hotdogs * 3.25) * 100) / 100);
+   document.getElementById("fries_price").innerHTML= (Math.round((fries * 2) * 100) / 100);
+   document.getElementById("sodas_price").innerHTML= (Math.round((sodas * 1.5) * 100) / 100);
+   document.getElementById("subtotal").innerHTML= (Math.round(subtotalbefore * 100) / 100);
+   document.getElementById("discount").innerHTML= (Math.round(discount * 100) / 100);
+   document.getElementById("taxes").innerHTML= (Math.round(taxes * 100) / 100);
+   document.getElementById("total").innerHTML= (Math.round(total * 100) / 100);
    } 
   </script>
 
