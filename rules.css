@@ -81,12 +81,17 @@ body {
 }
 
 .ico img {
- background:url('hot-dog.png');
+ background: transparent;
  background-size: cover;
- max-width: 3vw;
- max-height: 3vw;
+ max-width: 12vw;
+ max-height: 12vw;
  width: 100%;
  height: 100%;
+}
+
+#ico1 {
+ background:url('hot-dog.png');
+
 }
 
 .items .type {
@@ -104,7 +109,7 @@ body {
 .conclusion {
  border-collapse: collapse;
  border-style: hidden;
- border-top: 2px dashed;
+ border-top: 1px dashed;
  margin-left: auto;
  margin-right: auto;
  margin-top: 12px;
