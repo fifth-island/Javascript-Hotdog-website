@@ -56,14 +56,12 @@ body {
 .main_icon {
  display: block;
  position: relative;
- top: -30px;
+ top: -35px;
  margin: auto;
  background:url('main_image.png');
  background-size: cover;
- /* max-width: 10vw; */
- /* max-height: 6vw; */
- width: 35vw; 
- height: 12vw;
+ width: 37vw; 
+ height: 15vw;
 }
 
 .items {
